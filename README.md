@@ -1,4 +1,3 @@
-# Churn_Prediction
 # Customer Churn Prediction Using PySpark
 
 ## 📄 Project Abstract
@@ -83,5 +82,3 @@ Each row in the dataset represents a customer, with columns reflecting account l
 
 Guided by: **Prof. Denghui Zhang**  
 *Stevens Institute of Technology | Course: BIA 678-A Big Data Technologies*
-
----
