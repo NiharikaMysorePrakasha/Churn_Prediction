@@ -1,10 +1,10 @@
 # Customer Churn Prediction Using PySpark
 
-## 📄 Project Abstract
+## Project Abstract
 
 This project aims to predict customer churn using big data analytics and machine learning techniques in PySpark. Churn prediction identifies customers who are likely to stop using a company's service, enabling organizations to proactively implement retention strategies. Leveraging the distributed computing capabilities of Apache Spark, this solution ensures scalable processing and efficient analysis of large telecom datasets.
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn, the rate at which customers discontinue using a service, significantly impacts profitability. This project uses telecom data to train classification models that distinguish churners from non-churners. The project pipeline includes:
 
@@ -19,7 +19,7 @@ Customer churn, the rate at which customers discontinue using a service, signifi
 
 The Gradient Boosted Tree model achieved the best results with an accuracy of **92.05%**, demonstrating the viability of PySpark MLlib for churn prediction.
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Big Data Framework:** Apache Spark (PySpark)
@@ -28,14 +28,14 @@ The Gradient Boosted Tree model achieved the best results with an accuracy of **
 - **Visualization:** Seaborn, Matplotlib
 - **Version Control:** GitHub
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Apache Spark MLlib** for machine learning algorithms and cross-validation  
 - **Seaborn & Matplotlib** for visual analysis and correlation plotting  
 - **StringIndexer, VectorAssembler, Pipeline** for Spark ML preprocessing  
 - **MulticlassMetrics, BinaryClassificationEvaluator** for model evaluation  
 
-## 🧩 Pipelines
+## Pipelines
 
 Spark ML Pipelines were employed to streamline the machine learning workflow. A pipeline chains multiple stages—such as data transformation, feature indexing, model training, and evaluation—into a single cohesive flow. This ensured reproducibility, modularity, and scalability of the predictive modeling process.
 
@@ -47,7 +47,7 @@ Key components:
 
 Pipelines allowed iterative tuning and model selection through cross-validation and parameter grid search, enhancing both efficiency and performance.
 
-## 📊 Model Performance
+## Model Performance
 
 | Model                  | Accuracy (%) | AUC (Area Under ROC) |
 |------------------------|--------------|------------------------|
@@ -57,7 +57,7 @@ Pipelines allowed iterative tuning and model selection through cross-validation 
 
 The Gradient Boosted Tree classifier outperformed other models, showing high accuracy and strong generalization capabilities.
 
-## 📈 Dataset
+## Dataset
 
 Telecom datasets were sourced from Kaggle and contain customer attributes including usage patterns, service plans, and customer support interactions.
 
@@ -66,7 +66,7 @@ Telecom datasets were sourced from Kaggle and contain customer attributes includ
 
 Each row in the dataset represents a customer, with columns reflecting account length, call minutes, service plans, and churn status.
 
-## 🚀 Future Scope
+## Future Scope
 
 - **Real-time churn monitoring:** Deploying models in streaming environments for live prediction.  
 - **ETL Pipelines:** Automating data movement from SQL servers to data lakes using Apache Spark.  
@@ -74,7 +74,7 @@ Each row in the dataset represents a customer, with columns reflecting account l
 - **External Data Integration:** Enhancing prediction with demographic and behavioral data.  
 - **Business Integration:** Linking predictions to CRM systems to trigger retention campaigns.  
 
-## 👩‍💻 Contributors
+## Contributors
 
 - **Gahana Nagaraja** – Data gathering, preprocessing, and presentation design  
 - **Namratha Nagathihalli Anantha** – Model development and implementation  
